@@ -32,7 +32,7 @@ To use a different Ollama model, update `CHAT_MODEL` in `config.py`. For integra
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/advanced-ai-search-tool.git
+   git clone https://github.com/Burhanuddin-2001/WebMind.git
    cd advanced-ai-search-tool
    ```
 
@@ -51,8 +51,9 @@ To use a different Ollama model, update `CHAT_MODEL` in `config.py`. For integra
 
 4. **ChromeDriver setup**:
 
-   - The project includes a ChromeDriver binary at `chrome-win64/chrome.exe`.
-   - If this fails, download the matching version for your Chrome browser from [ChromeDriver downloads](https://chromedriver.chromium.org/downloads) and update `SELENIUM_DRIVER_PATH` in `.env`.
+   - Download the ChromeDriver version that matches your Chrome browser from [ChromeDriver downloads](https://developer.chrome.com/docs/chromedriver/downloads).
+   - Place the downloaded `chromedriver` executable in a directory of your choice and update `SELENIUM_DRIVER_PATH` in the `.env` file to point to its location.
+
 
 5. **Configure environment variables**:
 
@@ -94,9 +95,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author & Contact
 
-- **Author**: [Your Name]
-- **LinkedIn**: [Your LinkedIn Profile]
-
----
-
-**Note**: Please update the placeholders (e.g., repository URL, author name, license) with actual information.
+- **Author**: Burhanuddin
+- **LinkedIn**: www.linkedin.com/in/burhanuddin-cyber
